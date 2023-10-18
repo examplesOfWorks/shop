@@ -277,7 +277,7 @@ $cart = Cart::getCart();
                               <div class="mobile-menu fix"></div>
                            </div>
                            <?= Yii::$app->user->isGuest 
-                                    ? '<a href="/shop/info/login" class="d-none d-xxl-inline-block">Вход / Регистрация</a>' 
+                                    ? '<a href="/shop/info/login" class="d-xxl-inline-block">Вход / Регистрация</a>' 
                                     : '<li>'
                                     . Html::beginForm(['/site/logout'])
                                     . Html::submitButton(

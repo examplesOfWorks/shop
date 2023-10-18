@@ -99,8 +99,7 @@ use yii\helpers\VarDumper;
                     
                         '<a href="/shop/order/create" class="s-btn w-100 mb-20">Оформить заказ</a>' :
 
-                        'Для оформления заказа, пожалуйста, войдите 
-                        <br><a href="/shop/info/login" class="d-none d-xxl-inline-block">Вход / Регистрация</a>' ?>
+                        'Для оформления заказа, пожалуйста, <a href="/shop/info/login" class="d-xxl-inline-block"><u>войдите</u></a>' ?>
    
                     </div>
 
